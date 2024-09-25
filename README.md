@@ -20,6 +20,18 @@ The project uses the following datasets:
 - **DBLP (Node Classification)**: A collaboration network dataset for node classification.
 - **Karate Club (Link Prediction)**: A social network dataset for link prediction.
 
+## Results
+
+The project compared the performance of **GCN** (with learnable weight matrices) and **LightGCN** (without learnable weight matrices) across multiple datasets. The following table summarizes the accuracy achieved by each model:
+
+| **Dataset**  | **GCN Accuracy** | **LightGCN Accuracy** |
+|--------------|------------------|-----------------------|
+| **Cora (Node Classification)**     | 82.3%            | 81.0%                 |
+| **DBLP (Node Classification)**     | 83.4%            | 93.8%                 |
+| **Karate Club (Link Prediction)**  | 88.1%            | 70.3%                 |
+
+These results highlight the differences in performance between GCN and LightGCN models on node classification and link prediction tasks. GCN generally performs better on link prediction tasks, whereas LightGCN demonstrates higher accuracy on the DBLP node classification task.
+
 ## How to Run the Project
 
 1. **Clone the Repository**:
@@ -36,16 +48,3 @@ The project uses the following datasets:
    ```bash
    jupyter notebook
    ```
-
-## Results
-
-The project compared the performance of **GCN** (with learnable weight matrices) and **LightGCN** (without learnable weight matrices) across multiple datasets. The following table summarizes the accuracy achieved by each model:
-
-| **Dataset**  | **GCN Accuracy** | **LightGCN Accuracy** |
-|--------------|------------------|-----------------------|
-| **Cora (Node Classification)**     | 82.3%            | 81.0%                 |
-| **DBLP (Node Classification)**     | 83.4%            | 93.8%                 |
-| **Karate Club (Link Prediction)**  | 88.1%            | 70.3%                 |
-
-These results highlight the differences in performance between GCN and LightGCN models on node classification and link prediction tasks. GCN generally performs better on link prediction tasks, whereas LightGCN demonstrates higher accuracy on the DBLP node classification task.
-
