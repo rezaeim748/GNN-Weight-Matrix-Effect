@@ -12,6 +12,7 @@ We perform these comparisons on two tasks:
 2. **Link Prediction**: Predicting the existence of an edge between two nodes in a graph.
 
 The project involves multiple datasets, including Cora, DBLP, and Karate Club, and compares the performance of GCN and LightGCN on each dataset in terms of accuracy.  
+
 note: This project is still a work in progress, and further development and improvements are ongoing. Future updates will be provided as the project progresses.
 
 ## Datasets
