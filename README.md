@@ -101,32 +101,6 @@ Metrics are selected based on task type:
 
 ---
 
-## 📁 Repository Structure
-
-```
-📦GNN-Weight-Matrix-Effect
- ┣ 📂cora
- ┃ ┣ 📜gcn_cora.ipynb
- ┃ ┣ 📜gat_cora.ipynb
- ┃ ┗ 📜lightgcn_cora.ipynb
- ┣ 📂amazon_photo
- ┃ ┣ 📜gcn_amazon.ipynb
- ┃ ┣ 📜gat_amazon.ipynb
- ┃ ┗ 📜lightgcn_amazon.ipynb
- ┣ 📂citeseer
- ┃ ┣ 📜gcn_citeseer.ipynb
- ┃ ┣ 📜gat_citeseer.ipynb
- ┃ ┗ 📜lightgcn_citeseer.ipynb
- ┣ 📂pubmed
- ┃ ┣ 📜gcn_pubmed.ipynb
- ┃ ┣ 📜gat_pubmed.ipynb
- ┃ ┗ 📜lightgcn_pubmed.ipynb
- ┗ 📂data
-    ┗ 📜<all dataset files>
-```
-
----
-
 ## ✅ Final Takeaways
 
 No single model is universally best — the choice depends on the task:
