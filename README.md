@@ -14,7 +14,6 @@ This project evaluates and compares three representative GNN architectures:
 We perform a systematic comparison of these models on two core tasks:
 - **Node Classification** (on Cora, Amazon Photo)
 - **Link Prediction** (on PubMed, Citeseer)
->>>>>>> 6544947 (README is replaced)
 
 ---
 
